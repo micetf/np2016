@@ -137,10 +137,7 @@ strong {
 .reveal dd {
   margin-left: 40px; }
 
-/*.reveal q,
-.reveal blockquote {
-  quotes: true; }
-*/
+
 .reveal blockquote {
   display: block;
   position: relative;
@@ -245,7 +242,7 @@ strong {
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #b10142;
+  color: #BF1743;
   text-shadow: none;
   border: none; }
 
@@ -281,31 +278,31 @@ strong {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #b10142; }
+  border-right-color: #BF1743; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #b10142; }
+  border-left-color: #BF1743; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #b10142; }
+  border-bottom-color: #BF1743; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #b10142; }
+  border-top-color: #BF1743; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #76002C; }
+  border-right-color: #400816; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #76002C; }
+  border-left-color: #400816; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #76002C; }
+  border-bottom-color: #400816; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #76002C; }
+  border-top-color: #400816; }
 
 /*********************************************
  * PROGRESS BAR
@@ -314,7 +311,7 @@ strong {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #b10142;
+  background: #BF1743;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -332,13 +329,13 @@ mark {
   background-color: #3f3f3f; }
 
 html body {
-  background-image:linear-gradient(#380B4C,#140223); }
+  background-image:linear-gradient(#1E0738,#0D0318); }
 
 html.topbanner body {
-  background-image:linear-gradient(#140223, #380B4C); }
+  background-image:linear-gradient(#0D0318, #1E0738); }
 
 html.rightbanner body {
-  background-image:linear-gradient(to left, #140223, #380B4C); }
+  background-image:linear-gradient(to left, #0D0318, #1E0738); }
 
 
 /* main text */
@@ -358,7 +355,7 @@ html.rightbanner body {
   padding-bottom: 0.1em; }
 
 .slides h3 {
-  background-color: #c11e53;
+  background-color: #BF1743;
   color: white;
   text-align: left;
   padding-left: 4%;
@@ -450,7 +447,7 @@ html.light .footer p {
   color: #2a013b; }
 
 .slides .secondary {
-  color: #b10142; }
+  color: #BF1743; }
 
 .slides .third {
   color: #eeeeee; }
@@ -550,7 +547,7 @@ h2[data-irl]::after {
   content: 'IRL';
   color: black;
   font-size: 80%;
-  background-color: #b10142;
+  background-color: #BF1743;
   color: white;
   padding: 0.1em 0.2em;
   transform: rotate(-30deg);

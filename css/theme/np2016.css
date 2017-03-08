@@ -555,3 +555,8 @@ h2[data-irl]::after {
   padding: 0.1em 0.2em;
   transform: rotate(-30deg);
 }
+
+footer {
+  width: 100%;
+  font-size: 0.6em !important;
+}
